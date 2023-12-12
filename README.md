@@ -11,6 +11,11 @@ yarn dev
 # or
 pnpm dev
 ```
+Then, run the json server:
+
+```bash
+json-server --watch --port 4000 ./_data/db.json
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
